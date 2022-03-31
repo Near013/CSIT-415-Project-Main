@@ -1,0 +1,70 @@
+body {
+  background-color: #eee;
+}
+
+.d-flex {
+  background-color: #dee7f0;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #fff !important;
+  padding-bottom: 15px;
+  padding-left: 55px !important;
+  padding-right: 55px !important;
+}
+
+.nav-link {
+  padding-bottom: 5px;
+  margin: 0 5px;
+}
+
+form {
+  background-color: #fff;
+  width: 20rem;
+  border-radius: 7px;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
+}
+
+#images-box {
+  background-color: #ccc;
+  border-radius: 7px;
+}
+
+input {
+  background-color: #f6f8f9 !important;
+}
+
+form div button {
+  width: 100%;
+}
+
+#register-form {
+  width: 27rem;
+}
+
+#sign-out-btn {
+  background-color: #2991cc !important;
+  border-color: #2991cc !important;
+  border-radius: 21px !important;
+}
+
+#account {
+  background-color: #fff;
+  height: 100vh !important;
+}
+
+#sidebar {
+  width: 60%;
+  background-color: #fff !important;
+  border-radius: 7px;
+}
+
+#sidebar button {
+  width: 100%;
+}
+
+#foo {
+  position: absolute;
+  left: 88%;
+}

@@ -1,0 +1,44 @@
+<html>
+    <body>
+        <h1>Please fill out the form below to add a part to our catalog.</h1>
+        <form method = "post" action = "PartAdded.php">
+   <table>
+   <tr>
+               <td><label for="cars">Choose a product type:</label></td>
+<td>
+<select name="type">
+  <option value="CPU">CPU</option>
+  <option value="GPU">GPU</option>
+  <option value="RAM">RAM</option>
+  <option value="MOTHERBOARD">MOTHERBOARD</option>
+  <option value="TOWER" selected>TOWER</option>
+</select></td>
+			   </tr>
+			   <tr>
+			       <td>Brand: </td>
+               <td><input name = "brand" type = "text" size = "25" maxlength="10"> </td>
+			   </tr>
+			   <tr>
+   <td>Model Number: </td>
+               <td><input name = "mn" type = "text" size = "25" maxlength="5"> </td>
+			   </tr>
+			   <tr>
+	   <td>Price: </td>
+               <td><input name = "price" type = "int" size = "25"> </td>
+			   </tr>		   
+		<tr>
+	   <td>Stock Count: </td>
+               <td><input name = "stock" type = "int" size = "25"> </td>
+			   </tr>
+			   <tr>
+	   <td>Employee ID: </td>
+               <td><input name = "employeeID" type = "text" size = "25" maxlength="9"> </td>
+			   </tr>
+			            <tr>
+            <td><input type = "submit" value = "Submit" />
+            <input type = "reset" value = "Clear" /></td>
+            </tr>
+			       </table>
+			       </form>
+    </body>
+</html>
